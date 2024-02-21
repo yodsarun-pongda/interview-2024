@@ -1,0 +1,22 @@
+
+server:
+  port: 8080
+  servlet:
+    contextPath: /api
+
+spring:
+  application:
+    name: interview
+  datasource:
+    url: jdbc:postgresql://localhost:5432/demo
+    username: yodsarun
+    password: p@ssword
+  jpa:
+    show-sql: false
+  properties:
+    hibernate:
+      format_sql: true
+
+logging:
+  level:
+    root: info
